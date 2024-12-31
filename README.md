@@ -1,0 +1,1 @@
+<b>HeicToJpeg</b> image converter from HEIC format to JPEG format
