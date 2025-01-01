@@ -4,7 +4,7 @@ import own_image_functions as own_image
 from typing import Any
 
 program_description: str = "HeicToJpeg by Evgeny A. Maltsev (yevmal@gmail.com)"
-program_version: str = "0.1.0"
+program_version: str = "0.0.1"
 
 
 @click.command("cli", context_settings={'show_default': True})
