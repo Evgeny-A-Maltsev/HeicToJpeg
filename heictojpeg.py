@@ -13,7 +13,7 @@ program_version: str = "0.0.1"
 @click.option('-r', '--recursive', is_flag=True, default=False, help='Recursively image search')
 @click.option('-d', '--delete', is_flag=True, default=False, help='Delete original image')
 def image_converter(source_directory, destination_directory, recursive, delete):
-    if (own_file.checking_path(source_directory) and own_file.checking_path(destination_directory)):
+    if own_file.checking_path(source_directory) and own_file.checking_path(destination_directory):
         images: list[Any] = own_file.image_search(source_directory, recursive, "*.heic")
 
         count_ok: int = 0
